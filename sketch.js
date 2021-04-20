@@ -52,7 +52,7 @@ function draw(){
     background(51);
     Engine.update(engine);
     strokeWeight(4);
-    text("Press Spacebar for a second chance");   
+    text("Press Spacebar for a second chance",450,200);   
     
     ellipseMode(CENTER);
     ellipse(ball.position.x,ball.position.y,30);
